@@ -1,0 +1,289 @@
+h1, h2, h3, h4, h5 { 
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+#everything {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 750px;
+	border: 1px solid #797979;
+	text-align: left;
+	color: #3a3a3a;
+	background-color: white;
+}
+
+#masthead {
+	padding: 10px;
+	height: 75px;
+	background-color: #6699CC;
+	border-bottom: 1px solid #797979;
+	background-image:url('Images/panorama_small.jpg')
+}
+
+#menu {
+	border-bottom: 1px dotted #797979;
+	/*background: #bdf17b;*/
+	background-image: url('images/tb3.gif');
+}
+
+#menu ul {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+
+#menu li {
+	display: inline;
+	margin: 0px;
+	font-size: 12px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#menu li a {
+	margin: 0px;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#menu li a:hover {
+	background: #ffffff;
+}
+
+#masthead h1, #masthead h2 {
+	color: black;
+}
+
+#masthead h1 a, #masthead h2 { 
+  color: black;
+  text-decoration: none;
+}
+
+#masthead h1 a:hover { 
+  color: white;
+  text-decoration: none;
+}
+
+#masthead h1 {
+	margin: 0;
+}
+
+#masthead h2 {
+	margin: 5px 0 0;
+	font-size: 14px;
+}
+
+body {
+	font-family: "Trebuchet MS", verdana, arial, helvetica, sans-serif;
+	margin: 0px;
+	text-align: center;
+	background-color: white;
+	padding: 0px;
+	font-size: 13px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+        /* Stupid IE.  I hate you IE */
+      margin-left: 0px;
+      margin-right: 0px;}
+
+#leftbox {
+	float: left;
+	width: 150px;
+	background-color: white;
+	padding-top: 15px;
+	font-size: 11px;
+	padding-left: 7px;
+	padding-right: 3px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+}
+#leftbox h3 a {
+	color : blue;
+	text-decoration: none;
+}
+
+#leftbox ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+        margin-left: 0px;
+	padding-left: 20px;
+}
+
+#leftbox li {
+	margin-top: 0px;
+	margin-bottom: 0px;
+        margin-left: 0px;
+	padding-left: 0px;
+}
+
+#leftbox li a {
+	margin: 0px;
+	color : blue;
+	text-decoration: none;
+}
+
+#leftbox li a:hover {
+	color : black;
+}
+
+#content {
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 9px;
+	background: #ffffff;
+	width: 569px;
+	float: right;
+	border-left: 1px solid #797979;
+	margin-top: 0px;
+	margin-bottom: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+}
+
+#content a
+	{
+	text-decoration: none;
+	color : blue;
+	}
+
+
+#footer {
+	clear: both;
+	background-color: #6699CC;
+	border-top: 1px solid #797979;
+	font-size: 10px;
+	padding: 5px;
+	text-align: right;
+}
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+a {
+	color : blue;
+	text-decoration : underline;
+}
+
+a:hover {
+	color : black;
+}
+
+ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+        margin-left: 10px;
+	padding-left: 20px;
+}
+
+li {
+		margin-bottom: 10px;
+}
+
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: white;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
